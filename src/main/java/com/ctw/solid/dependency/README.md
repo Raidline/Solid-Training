@@ -10,6 +10,12 @@ You have two constructors there.
 
 One that does receive a concrete implementation, and one that receives a `MessageService`.
 
+```java
+public interface MessageService {
+    void sendMessage(String msg, String rec);
+}
+```
+
 The first constructor makes so that this class **only** works with the direct implementation of the `MessageService`, known as `EmailService`.
 
 ```java
