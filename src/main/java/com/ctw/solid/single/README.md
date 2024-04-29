@@ -49,3 +49,5 @@ public class UserMapper {
 Your challenge is to make this mapper respect the SRP.
 
 _A possible resolution is in the `good` package_.
+
+[Base Readme](src/main/java/com/ctw/solid)

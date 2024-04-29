@@ -55,3 +55,5 @@ You would need to send two types of messages (as it can be seen in the bad imple
 Your challenge is to make the overall code structure respect the OCP.
 
 _A possible resolution is in the `good` package_.
+
+[Base Readme](src/main/java/com/ctw/solid)

@@ -49,3 +49,5 @@ In a worst case scenario it can even throw an exception!
 Your challenge is to make this interface respect the IG principle.
 
 _A possible solution can be found in the `good`package.
+
+[Base Readme](src/main/java/com/ctw/solid)

@@ -37,3 +37,5 @@ The function in case (`send`) does not need to know what type of event is sendin
 Your challenge is to create an example of your own.
 In this section we don't have a specific example, as it is important for you to create a well drafted hierarchy and be
 able to use it with ease.
+
+[Base Readme](src/main/java/com/ctw/solid)
