@@ -9,13 +9,11 @@ public class MessageProcessor {
         this.messageService = messageService;
     }
 
-    // no dependency injection, we would need to change this afterward
-    public MessageProcessor() {
-        this.messageService = new EmailService();
+    public MessageProcessor(EmailService messageService) {
+        this.messageService = messageService;
     }
 
     public void processMessage(String message, String receiver){
-        // processing logic here
         this.messageService.sendMessage(message, receiver);
     }
 }
