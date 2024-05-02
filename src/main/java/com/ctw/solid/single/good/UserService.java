@@ -2,6 +2,8 @@ package com.ctw.solid.single.good;
 
 public class UserService {
 
+    private final UserAPI api = new UserAPI();
+
     public static void main(String[] args) {
         UserService instance = new UserService();
 
@@ -11,7 +13,8 @@ public class UserService {
     }
 
     private UserResponse getUserResponse(String name) {
-        return new UserMapper().mapUser(name);
+        var user = api.findUserByName(name);
+        return new UserMapper().mapUser(user);
     }
 
 
